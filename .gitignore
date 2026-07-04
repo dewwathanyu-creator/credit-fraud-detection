@@ -1,6 +1,9 @@
 # Large data files — do not commit to GitHub (>100MB limit)
 *.csv
-*.pkl
+
+# Backup folders
+backup/
+backup_original/
 
 # Python
 __pycache__/
