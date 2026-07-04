@@ -3,6 +3,8 @@
 A machine learning pipeline that identifies fraudulent financial transactions from a dataset of **6.3 million records**.  
 Built with scikit-learn and deployed as an interactive web app using Streamlit.
 
+[![Live App](https://img.shields.io/badge/Live%20App-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://credit-fraud-detection-h4wv7zj6hdux5jnpjldgbf.streamlit.app/)
+
 ---
 
 ## Project Overview
@@ -64,7 +66,7 @@ Credit Fraud/
 └── README.md
 ```
 
-> Note: `AIML Dataset.csv` and `fraud_detection_pipeline.pkl` are excluded from this repo via `.gitignore` due to file size.  
+> Note: `AIML Dataset.csv` is excluded from this repo via `.gitignore` (470MB, exceeds GitHub limit).  
 > Run `python train_model.py` after downloading the dataset to regenerate the model.
 
 ---
